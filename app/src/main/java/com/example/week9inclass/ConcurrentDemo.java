@@ -34,7 +34,7 @@ class PrintStr implements Runnable {
         System.out.println();
 
         try {
-            Thread.sleep(2000);
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
